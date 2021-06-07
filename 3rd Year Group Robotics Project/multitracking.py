@@ -1,7 +1,7 @@
-#!/usr/bin/python
-#
-# Copyright 2018 BIG VISION LLC ALL RIGHTS RESERVED
-#
+# Program to track multiple 'pucks'
+# All various trackertypes have been defined for testing purposes
+# CSRT was found to have the best results for our purpose
+
 from __future__ import print_function
 import sys
 import cv2
