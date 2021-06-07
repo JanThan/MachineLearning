@@ -26,7 +26,7 @@ See [3rd year group robotics project](https://github.com/JanThan/MachineLearning
 My specific contribution to this was with regards to the overhead live tracking of multiple droids, followed by the detection of their error codes via the use of OpenCV and Tensorflow.   
 
 # Dissertation  
-Following the above learning, I spent the next year focused on my final year dissertation. [Adversarial Image Classification using Deep Neural Rejection]().  
+Following the above learning, I spent the next year focused on my final year dissertation. [Adversarial Image Classification using Deep Neural Rejection](https://github.com/JanThan/MachineLearning/tree/main/FinalYearDissertation).  
 It focuses on the topic of building a robust CNN which is resistant to adversarial attacks using researched methods. 
 
 
