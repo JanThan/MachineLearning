@@ -22,7 +22,7 @@ I worked on applying this to various datasets:
 # 3rd year Group Robotics Project
 My first real application of what I had learnt was in my third year of university to the group robotics project.  
 The task was to create an automonous system capable of tracking 'rogue' droids, identify the error signal, to then immobilise safely and return to a designated 'maintenance' area.  
-See [3rd year group robotics project]()
+See [3rd year group robotics project](https://github.com/JanThan/MachineLearning/tree/main/3rd%20Year%20Group%20Robotics%20Project)
 My specific contribution to this was with regards to the overhead live tracking of multiple droids, followed by the detection of their error codes via the use of OpenCV and Tensorflow.   
 
 # Dissertation  
