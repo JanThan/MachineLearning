@@ -1,3 +1,7 @@
+# This program performs the actual detection of each of the moving 'pucks'. Default is to call then tensorflow built cnn model to detect all pucks within the video frame. 
+# object tracking will then be applied to follow each of the identified bounding boxes. 
+# There is the option to stop all pucks moving and manually draw each of these bounding boxes if it is required (as a last resort backup option)
+
 import numpy as np
 import os
 import tensorflow as tf
