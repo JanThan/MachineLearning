@@ -19,6 +19,12 @@ I also began to learn how to implement neural networks.  [Initial Learning](http
 I worked on applying this to various datasets:
 - [cifar-10 dataset](https://github.com/JanThan/LearningML/tree/master/cifar10_dataset)
 
+# 3rd year Group Robotics Project
+My first real application of what I had learnt was in my third year of university to the group robotics project.  
+The task was to create an automonous system capable of tracking 'rogue' droids, identify the error signal, to then immobilise safely and return to a designated 'maintenance' area.  
+See [3rd year group robotics project]()
+My specific contribution to this was with regards to the overhead live tracking of multiple droids, followed by the detection of their error codes via the use of OpenCV and Tensorflow.   
+
 # Dissertation  
 Following the above learning, I spent the next year focused on my final year dissertation. [Adversarial Image Classification using Deep Neural Rejection]().  
 It focuses on the topic of building a robust CNN which is resistant to adversarial attacks using researched methods. 
