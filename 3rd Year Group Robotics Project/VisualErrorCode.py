@@ -1,3 +1,7 @@
+# Below program was used to identify the below error codes from a flashing led on a moving 'puck' sized robot. 
+# General idea was to create a black mask around the detected object (to ignore all other sources of light from the image) 
+# Consequently the sequence of light that was registered would be reported to result in the respective error code.
+
 # Error Codes:
 # normal    : red, blue, green
 # V001      : red, red, blue, green
@@ -14,7 +18,7 @@ def ColourSpace(image):
     # convert input image to hsv
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
-    # applying filter to remove salt and pepper effect
+    # applying filter to remove 'salt and pepper' effect
     hsv = cv2.medianBlur(hsv, 5)# (3,3), 0)
     # colour ranges in HSV hard-coded here --> histogram showed 119 average for these numbers. Check in different lighting
     lower_green = np.array([57,46,155])
